@@ -1,11 +1,15 @@
 import { useState } from "react";
+import NavBar from "./Components/NavBar";
+import Header from "./Components/Header";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="bg-[#141414]">
+        <Header />
+      </div>
     </>
   );
 }
