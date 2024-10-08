@@ -1,7 +1,5 @@
 import React from "react";
-import Logo from "/Logo.svg";
-import notification from "/notif.svg";
-import search from "/search.svg";
+import { Logo, Search, Notification } from "../Assets";
 
 const NavBar = () => {
   return (
@@ -22,8 +20,8 @@ const NavBar = () => {
             </nav>
           </div>
           <div className="flex justify-between max-w-14 w-full h-6">
-            <img src={search} alt="Search" />
-            <img src={notification} alt="notification" />
+            <img src={Search} alt="Search" />
+            <img src={Notification} alt="notification" />
           </div>
         </div>
       </div>

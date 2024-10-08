@@ -1,5 +1,5 @@
 import React from "react";
-import LeftIcon from "/Left.svg";
+import { Left } from "../Assets";
 
 const CategoryCard = ({ image, secondImg, Title }) => {
   return (
@@ -12,7 +12,7 @@ const CategoryCard = ({ image, secondImg, Title }) => {
         </div>
         <div className="flex justify-between">
           <p>{Title}</p>
-          <img src={LeftIcon} alt="Left Icon" />
+          <img src={Left} alt="Left Icon" />
         </div>
       </div>
     </>

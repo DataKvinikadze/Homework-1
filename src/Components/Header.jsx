@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 const Header = () => {
   return (
     <>
-      <div className="h-[836px] bg-[url('../../public/Bgg.png')] bg-contain bg-center bg-no-repeat pt-">
+      <div className="h-[836px] bg-[url('./Assets/Background.png')] bg-contain bg-center bg-no-repeat pt-">
         <NavBar />
         <div className="mx-auto flex flex-col justify-center items-center text-center text-[#FFFFFF] mt-[501px]">
           <h1 className="text-[48px] leading-[72px] font-bold mb-[10px] ">

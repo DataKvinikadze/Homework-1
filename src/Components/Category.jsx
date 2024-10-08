@@ -1,8 +1,6 @@
 import React from "react";
-import CategoryImg from "/Container.svg";
 import CategoryCard from "./CategoryCard";
-import RightIcon from "/Right.svg";
-import LeftIcon from "/Left.svg";
+import { category, Left, Right } from "../Assets";
 
 const Category = () => {
   return (
@@ -21,7 +19,7 @@ const Category = () => {
             </div>
             <div className="flex justify-between items-center bg-[#0F0F0F] rounded-[10px] p-3 gap-3">
               <div className="w-[44px] h-[44px] flex justify-center items-center bg-[#1A1A1A] rounded-[6px]">
-                <img src={RightIcon} alt="Right Icon" />
+                <img src={Right} alt="Right Icon" />
               </div>
               <div className="flex">
                 <div className="w-[15px] h-1 bg-[#E50000] rounded-[100px]"></div>
@@ -30,16 +28,16 @@ const Category = () => {
                 <div className="w-[15px] h-1 bg-[#333333] rounded-[100px]"></div>
               </div>
               <div className="w-[44px] h-[44px] flex justify-center items-center bg-[#1A1A1A] rounded-[6px]">
-                <img src={LeftIcon} alt="Left Icon" />
+                <img src={Left} alt="Left Icon" />
               </div>
             </div>
           </div>
           <div className="flex justify-between max-w-[1280px] w-full ">
-            <CategoryCard image={CategoryImg} Title={"Action"} />
-            <CategoryCard image={CategoryImg} Title={"Adventure"} />
-            <CategoryCard image={CategoryImg} Title={"Comedy"} />
-            <CategoryCard image={CategoryImg} Title={"Drama"} />
-            <CategoryCard image={CategoryImg} Title={"Horror"} />
+            <CategoryCard image={category} Title={"Action"} />
+            <CategoryCard image={category} Title={"Adventure"} />
+            <CategoryCard image={category} Title={"Comedy"} />
+            <CategoryCard image={category} Title={"Drama"} />
+            <CategoryCard image={category} Title={"Horror"} />
           </div>
         </div>
       </div>

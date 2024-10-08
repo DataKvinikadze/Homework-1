@@ -1,6 +1,6 @@
 import React from "react";
 import DeviceCard from "./DeviceCard";
-import DeviceIcon from "/Device.svg";
+import { iPhone } from "../Assets";
 
 const Devices = () => {
   return (
@@ -20,42 +20,42 @@ const Devices = () => {
           </div>
           <div className="flex flex-wrap gap-[20px]">
             <DeviceCard
-              image={DeviceIcon}
+              image={iPhone}
               title={"SmartPhones"}
               description={
                 "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
               }
             />
             <DeviceCard
-              image={DeviceIcon}
+              image={iPhone}
               title={"SmartPhones"}
               description={
                 "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
               }
             />
             <DeviceCard
-              image={DeviceIcon}
+              image={iPhone}
               title={"SmartPhones"}
               description={
                 "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
               }
             />
             <DeviceCard
-              image={DeviceIcon}
+              image={iPhone}
               title={"SmartPhones"}
               description={
                 "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
               }
             />
             <DeviceCard
-              image={DeviceIcon}
+              image={iPhone}
               title={"SmartPhones"}
               description={
                 "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
               }
             />
             <DeviceCard
-              image={DeviceIcon}
+              image={iPhone}
               title={"SmartPhones"}
               description={
                 "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
