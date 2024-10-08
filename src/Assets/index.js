@@ -5,5 +5,17 @@ import Logo from "./Logo.svg";
 import Notification from "./NotificationIcon.svg";
 import Right from "./Right.svg";
 import Search from "./search.svg";
+import Minus from "./Minus.svg";
+import Plus from "./Plus.svg";
 
-export { Background, iPhone, Left, Logo, Notification, Right, Search };
+export {
+  Background,
+  iPhone,
+  Left,
+  Logo,
+  Notification,
+  Right,
+  Search,
+  Minus,
+  Plus,
+};
