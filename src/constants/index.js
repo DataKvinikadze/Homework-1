@@ -10,6 +10,35 @@ import {
   Plus,
 } from "../Assets/index";
 
+export const Plan = {
+  title: "Choose the plan that's right for you",
+  subTitle:
+    "Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!",
+  content: [
+    {
+      id: "1",
+      title: "Basic Plan",
+      content:
+        "Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.",
+      price: "$9.99/month",
+    },
+    {
+      id: "2",
+      title: "Basic Plan",
+      content:
+        "Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.",
+      price: "$9.99/month",
+    },
+    {
+      id: "3",
+      title: "Premium Plan",
+      content:
+        "Access to a widest selection of movies and shows, including all new releases and Offline Viewing",
+      price: "$14.99/month",
+    },
+  ],
+};
+
 export const Questions = {
   title: "Frequently Asked Questions",
   subTitle:
