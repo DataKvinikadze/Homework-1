@@ -1,0 +1,9 @@
+import Background from "./Background.png";
+import iPhone from "./iPhone.svg";
+import Left from "./LeftIcon.svg";
+import Logo from "./Logo.svg";
+import Notification from "./NotificationIcon.svg";
+import Right from "./Right.svg";
+import Search from "./search.svg";
+
+export { Background, iPhone, Left, Logo, Notification, Right, Search };
