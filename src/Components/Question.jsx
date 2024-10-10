@@ -18,9 +18,9 @@ const Question = () => {
           </div>
           {/* Bottom */}
           <div>
-            <ul className="flex flex-col max-h-[470px] h-full flex-wrap justify-between">
-              {Questions.content.map((question) => {
-                return (
+            <ul className="flex justify-between">
+              <div>
+                {Questions.content.left.map((question) => (
                   <QuestionCard
                     key={question.id}
                     number={question.id}
@@ -28,8 +28,19 @@ const Question = () => {
                     title={question.title}
                     content={question.content}
                   />
-                );
-              })}
+                ))}
+              </div>
+              <div>
+                {Questions.content.right.map((question) => (
+                  <QuestionCard
+                    key={question.id}
+                    number={question.id}
+                    icon={question.icon}
+                    title={question.title}
+                    content={question.content}
+                  />
+                ))}
+              </div>
             </ul>
           </div>
         </div>
