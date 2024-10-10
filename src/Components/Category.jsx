@@ -5,7 +5,7 @@ import { category, Left, Right } from "../Assets";
 const Category = () => {
   return (
     <>
-      <div className="max-w-[1440px] w-full m-auto flex justify-center">
+      <div className="max-w-[1440px] w-full m-auto flex justify-center mb-[120px]">
         <div className="max-w-[1280px] w-full justify-center">
           <div className="flex justify-between mb-[60px]">
             <div className="">

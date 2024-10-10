@@ -5,9 +5,9 @@ import QuestionCard from "./QuestionCard";
 const Question = () => {
   return (
     <>
-      <div className="max-w-[1440px] w-full mx-auto flex justify-center">
+      <div className="max-w-[1440px] w-full mx-auto flex justify-center mb-[120px]">
         <div className="max-w-[1300px] px-[10px] w-full text-white">
-          <div className="flex justify-between items-end">
+          <div className="flex justify-between items-end mb-[60px]">
             <div>
               <h1 className="text-[28px] font-bold">{Questions.title}</h1>
               <p className="text-[#999999]">{Questions.subTitle}</p>

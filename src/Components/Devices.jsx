@@ -5,9 +5,9 @@ import { iPhone } from "../Assets";
 const Devices = () => {
   return (
     <>
-      <div className="max-w-[1440px] flex justify-center w-full mx-auto">
+      <div className="max-w-[1440px] flex justify-center w-full mx-auto mb-[120px]">
         <div className="text-[#ffffff] max-w-[1280px] w-full">
-          <div className="">
+          <div className=" mb-[60px]">
             <h2 className="text-[28px] text-[#ffffff] font-bold">
               We Provide you streaming experience across various devices.
             </h2>
