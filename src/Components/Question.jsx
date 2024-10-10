@@ -18,18 +18,16 @@ const Question = () => {
           </div>
           {/* Bottom */}
           <div>
-            <ul className="flex flex-col max-h-[446px] h-full flex-wrap gap-x-[40px]">
+            <ul className="flex flex-col max-h-[470px] h-full flex-wrap justify-between">
               {Questions.content.map((question) => {
                 return (
-                  <>
-                    <QuestionCard
-                      key={question.id}
-                      number={question.id}
-                      icon={question.icon}
-                      title={question.title}
-                      content={question.content}
-                    />
-                  </>
+                  <QuestionCard
+                    key={question.id}
+                    number={question.id}
+                    icon={question.icon}
+                    title={question.title}
+                    content={question.content}
+                  />
                 );
               })}
             </ul>
