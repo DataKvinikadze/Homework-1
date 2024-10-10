@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Category from "./Components/Category";
 import Devices from "./Components/Devices";
 import Question from "./Components/Question";
+import Plan from "./Components/Plan";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
         <Category />
         <Devices />
         <Question />
+        <Plan />
       </div>
     </>
   );
