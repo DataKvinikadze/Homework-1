@@ -8,6 +8,7 @@ import Search from "./search.svg";
 import Minus from "./Minus.svg";
 import Plus from "./Plus.svg";
 import category from "./Container.svg";
+import TrailBackground from "./FreeTrail.png";
 
 export {
   Background,
@@ -20,4 +21,5 @@ export {
   Minus,
   Plus,
   category,
+  TrailBackground,
 };

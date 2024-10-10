@@ -8,6 +8,7 @@ import {
   Search,
   Minus,
   Plus,
+  TrailBackground,
 } from "../Assets/index";
 
 export const plan = {
@@ -94,4 +95,11 @@ export const Questions = {
       },
     ],
   },
+};
+
+export const freeTrail = {
+  title: "Start your free trial today!",
+  subTitle:
+    "This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.",
+  img: TrailBackground,
 };
