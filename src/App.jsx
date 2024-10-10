@@ -5,6 +5,7 @@ import Category from "./Components/Category";
 import Devices from "./Components/Devices";
 import Question from "./Components/Question";
 import Plan from "./Components/Plan";
+import FreeTrail from "./Components/FreeTrail";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
         <Devices />
         <Question />
         <Plan />
+        <FreeTrail />
       </div>
     </>
   );
