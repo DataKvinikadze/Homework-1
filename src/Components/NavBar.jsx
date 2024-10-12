@@ -14,7 +14,7 @@ const NavBar = () => {
             <nav className="">
               <ul className="flex items-center h-11 gap-4 text-[#BFBFBF]">
                 {navBar.map((item) => (
-                  <li>
+                  <li key={item.title}>
                     <li className="">{item.title}</li>
                   </li>
                 ))}
