@@ -189,3 +189,30 @@ export const freeTrail = {
     "This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.",
   img: TrailBackground,
 };
+
+export default footerLinks = [
+  {
+    heading: "Home",
+    items: ["Categories", "Devices", "Pricing", "FAQ"],
+  },
+  {
+    heading: "Movies",
+    items: ["Genres", "Trending", "New Release", "Popular"],
+  },
+  {
+    heading: "Shows",
+    items: ["Genres", "Trending", "New Release", "Popular"],
+  },
+  {
+    heading: "Support",
+    items: ["Contact Us"],
+  },
+  {
+    heading: "Subscription",
+    items: ["Plans", "Features"],
+  },
+  {
+    heading: "Connect With Us",
+    items: ["Facebook", "Twitter", "LinkedIn"],
+  },
+];
