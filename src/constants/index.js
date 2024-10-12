@@ -190,7 +190,7 @@ export const freeTrail = {
   img: TrailBackground,
 };
 
-export default footerLinks = [
+export const footerLinks = [
   {
     heading: "Home",
     items: ["Categories", "Devices", "Pricing", "FAQ"],
@@ -216,3 +216,8 @@ export default footerLinks = [
     items: ["Facebook", "Twitter", "LinkedIn"],
   },
 ];
+
+export const copyright = {
+  copyright: "©2023 streamvib, All Rights Reserved",
+  policies: ["Terms of Use", "Privacy Policy", "Cookie Policy"],
+};
