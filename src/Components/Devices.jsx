@@ -20,8 +20,9 @@ const Devices = () => {
             </p>
           </div>
           <ul className="flex flex-wrap gap-[20px]">
-            {device.content.map((item) => (
+            {device.content.map((item, index) => (
               <DeviceCard
+                key={index}
                 image={item.image}
                 title={item.title}
                 description={item.description}
