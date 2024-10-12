@@ -1,6 +1,7 @@
 import React from "react";
 import CategoryCard from "./CategoryCard";
-import { category, Left, Right } from "../Assets";
+import { Left, Right } from "../Assets";
+import { category } from "../constants";
 
 const Category = () => {
   return (
@@ -10,12 +11,9 @@ const Category = () => {
           <div className="flex justify-between mb-[60px]">
             <div className="">
               <h2 className="text-[#ffffff] text-[28px] font-bold">
-                Explore our wide variety of categories
+                {category.title}
               </h2>
-              <p className="text-[#999999]">
-                Whether you're looking for a comedy to make you laugh, a drama
-                to make you think, or a documentary to learn something new
-              </p>
+              <p className="text-[#999999]">{category.subTitle}</p>
             </div>
             <div className="flex justify-between items-center bg-[#0F0F0F] rounded-[10px] p-3 gap-3">
               <div className="w-[44px] h-[44px] flex justify-center items-center bg-[#1A1A1A] rounded-[6px]">
@@ -33,11 +31,9 @@ const Category = () => {
             </div>
           </div>
           <div className="flex justify-between max-w-[1280px] w-full ">
-            <CategoryCard image={category} Title={"Action"} />
-            <CategoryCard image={category} Title={"Adventure"} />
-            <CategoryCard image={category} Title={"Comedy"} />
-            <CategoryCard image={category} Title={"Drama"} />
-            <CategoryCard image={category} Title={"Horror"} />
+            {category.content.map((item, index) => (
+              <CategoryCard key={index} image={item.img} Title={item.title} />
+            ))}
           </div>
         </div>
       </div>

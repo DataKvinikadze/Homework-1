@@ -1,6 +1,7 @@
 import React from "react";
 import DeviceCard from "./DeviceCard";
 import { iPhone } from "../Assets";
+import { device } from "../constants";
 
 const Devices = () => {
   return (
@@ -18,50 +19,15 @@ const Devices = () => {
               entertainment.
             </p>
           </div>
-          <div className="flex flex-wrap gap-[20px]">
-            <DeviceCard
-              image={iPhone}
-              title={"SmartPhones"}
-              description={
-                "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
-              }
-            />
-            <DeviceCard
-              image={iPhone}
-              title={"SmartPhones"}
-              description={
-                "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
-              }
-            />
-            <DeviceCard
-              image={iPhone}
-              title={"SmartPhones"}
-              description={
-                "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
-              }
-            />
-            <DeviceCard
-              image={iPhone}
-              title={"SmartPhones"}
-              description={
-                "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
-              }
-            />
-            <DeviceCard
-              image={iPhone}
-              title={"SmartPhones"}
-              description={
-                "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
-              }
-            />
-            <DeviceCard
-              image={iPhone}
-              title={"SmartPhones"}
-              description={
-                "StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
-              }
-            />
-          </div>
+          <ul className="flex flex-wrap gap-[20px]">
+            {device.content.map((item) => (
+              <DeviceCard
+                image={item.image}
+                title={item.title}
+                description={item.description}
+              />
+            ))}
+          </ul>
         </div>
       </div>
     </>

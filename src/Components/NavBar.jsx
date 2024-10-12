@@ -1,5 +1,6 @@
 import React from "react";
 import { Logo, Search, Notification } from "../Assets";
+import { navBar } from "../constants";
 
 const NavBar = () => {
   return (
@@ -12,10 +13,11 @@ const NavBar = () => {
           <div className="flex items-center justify-center max-w-[412px] w-full h-[61px] border-[3px] border-[#1F1F1F] rounded-lg bg-[#0F0F0F]">
             <nav className="">
               <ul className="flex items-center h-11 gap-4 text-[#BFBFBF]">
-                <li className="">Home</li>
-                <li>Movies & Shows</li>
-                <li>Support</li>
-                <li>Subscriptions</li>
+                {navBar.map((item) => (
+                  <li>
+                    <li className="">{item.title}</li>
+                  </li>
+                ))}
               </ul>
             </nav>
           </div>
