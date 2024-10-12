@@ -6,10 +6,9 @@ import Devices from "./Components/Devices";
 import Question from "./Components/Question";
 import Plan from "./Components/Plan";
 import FreeTrail from "./Components/FreeTrail";
+import Footer from "./Components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div className="bg-[#141414]">
@@ -19,6 +18,7 @@ function App() {
         <Question />
         <Plan />
         <FreeTrail />
+        <Footer />
       </div>
     </>
   );
