@@ -1,5 +1,5 @@
 import React from "react";
-import PlanCard from "./PlanCard";
+import PlanCard from "././Cards/PlanCard";
 import { plan } from "../constants";
 
 const Plan = () => {

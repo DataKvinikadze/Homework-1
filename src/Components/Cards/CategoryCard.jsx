@@ -1,5 +1,5 @@
 import React from "react";
-import { Left } from "../Assets";
+import { Left } from "../../Assets";
 
 const CategoryCard = ({ image, secondImg, Title }) => {
   return (

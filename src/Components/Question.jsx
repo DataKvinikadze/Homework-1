@@ -1,6 +1,6 @@
 import React from "react";
 import { Questions } from "../constants";
-import QuestionCard from "./QuestionCard";
+import QuestionCard from "./Cards/QuestionCard";
 
 const Question = () => {
   return (
