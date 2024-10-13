@@ -6,20 +6,20 @@ import { device } from "../constants";
 const Devices = () => {
   return (
     <>
-      <div className="max-w-[1440px] flex justify-center w-full mx-auto mb-[120px]">
-        <div className="text-[#ffffff] max-w-[1280px] w-full">
-          <div className=" mb-[60px]">
-            <h2 className="text-[28px] text-[#ffffff] font-bold">
+      <div className="md:max-w-[1440px] lg:max-w-[1920px] flex justify-center w-full mx-auto md:mb-[120px]">
+        <div className="text-[#ffffff] md:max-w-[1260px] px-[10px] lg:max-w-[1600px] w-full">
+          <div className="mb-[40px] md:mb-[60px] lg-mb-[80px]">
+            <h2 className="md:text-[28px] lg:text-[38px] text-[20px] text-[#ffffff] font-bold">
               We Provide you streaming experience across various devices.
             </h2>
-            <p className="text-[#999999]">
+            <p className="text-[#999999] text-[14px] lg-[18px]">
               With StreamVibe, you can enjoy your favorite movies and TV shows
               anytime, anywhere. Our platform is designed to be compatible with
               a wide range of devices, ensuring that you never miss a moment of
               entertainment.
             </p>
           </div>
-          <ul className="flex flex-wrap gap-[20px]">
+          <ul className="flex justify-center md:justify-normal flex-wrap gap-[20px] lg:gap-[30px]">
             {device.content.map((item, index) => (
               <DeviceCard
                 key={index}
