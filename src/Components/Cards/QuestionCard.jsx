@@ -3,7 +3,7 @@ import React from "react";
 const QuestionCard = ({ icon, title, content, number }) => {
   return (
     <>
-      <li className="border-b-[1px] max-w-[620px] h-[102px] w-full flex-[1] border-[#E50000]">
+      <li className="border-b-[1px] md:max-w-[620px] lg:max-w-[758px] max-w-[358px] lg:h-[175px] lg:h-[98px] md:h-[102px] w-full flex-[1] border-[#E50000]">
         <div className="p-[24px] flex items-center gap-x-4">
           <div className="bg-[#1F1F1F] p-4 rounded-[8px] w-[50px] h-[54px]">{`0${number}`}</div>
           <div className="max-w-[466px] w-full">
