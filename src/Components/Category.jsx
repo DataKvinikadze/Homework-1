@@ -7,7 +7,7 @@ const Category = () => {
   return (
     <>
       <div className="lg:max-w-[1920px] md:max-w-[1440px] w-full m-auto flex justify-center mb-[120px]">
-        <div className="max-w-[1260px] px-[10px] w-full justify-center">
+        <div className="md:max-w-[1260px] lg:max-w-[1600px] px-[10px] w-full justify-center">
           <div className="flex justify-between mb-[60px]">
             <div className="">
               <h2 className="text-[#ffffff] text-[28px] font-bold">
@@ -30,7 +30,7 @@ const Category = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:flex justify-between lg:max-w-[1600px] md:max-w-[1440px] w-full ">
+          <div className="hidden md:flex justify-between  w-full ">
             {category.content.map((item, index) => (
               <CategoryCard key={index} image={item.img} Title={item.title} />
             ))}
