@@ -9,8 +9,10 @@ import Minus from "./Minus.svg";
 import Plus from "./Plus.svg";
 import Category from "./Container.svg";
 import TrailBackground from "./FreeTrail.png";
+import burgerBar from "./burgerBar.svg";
 
 export {
+  burgerBar,
   Background,
   iPhone,
   Left,
