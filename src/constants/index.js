@@ -51,6 +51,10 @@ export const category = {
       img: Category,
     },
   ],
+  contentForPhone: {
+    title: "Comedy",
+    img: Category,
+  },
 };
 
 export const device = {
