@@ -4,10 +4,10 @@ import { freeTrail } from "../constants";
 const FreeTrail = () => {
   return (
     <>
-      <div className="max-w-[1440px] w-full mx-auto mb-[120px] flex justify-center ">
-        <div className="max-w-[1280px] w-full h-[236px] px-[60px] flex justify-between items-center bg-[url('./Assets/FreeTrail.png')]">
-          <div className="min-h-[76px]">
-            <h1 className="text-[28px] text-[#FFFFFF] font-bold">
+      <div className="md:max-w-[1440px] lg:max-w-[1920px] w-full mx-auto mb-[120px] flex justify-center ">
+        <div className="max-w-[1260px] w-full h-fit px-[40px] md:px-[90px] py-[50px] flex md:flex-row flex-col md:text-left text-center justify-between items-center bg-[url('./Assets/FreeTrail.png')]">
+          <div className=" mb-[50px]">
+            <h1 className="md:text-[28px] mb-[10px] text-[24px] lg:text-[48px] text-[#FFFFFF] font-bold">
               {freeTrail.title}
             </h1>
             <p className="text-[#999999]">{freeTrail.subTitle}</p>
