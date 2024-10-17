@@ -16,7 +16,7 @@ const Devices = () => {
               {device.subTitle}
             </p>
           </div>
-          <ul className="flex justify-center md:justify-normal flex-wrap gap-[20px] lg:gap-[30px]">
+          <ul className="grid md:grid-rows-2 md:grid-cols-3 grid-row-6 justify-center md:justify-normal flex-wrap gap-[20px] lg:gap-[30px]">
             {device.content.map((item, index) => (
               <DeviceCard
                 key={index}
