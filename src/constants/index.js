@@ -147,19 +147,18 @@ export const Questions = {
           "StreamVibe is a streaming service that allows you to watch movies and shows on demand.",
       },
       {
-        id: "2",
-        icon: Plus,
-        title: "How much does StreamVibe cost?",
+        id: "2  ",
+        icon: Minus,
+        title: "What is StreamVibe?",
+        content:
+          "StreamVibe is a streaming service that allows you to watch movies and shows on demand.",
       },
       {
-        id: "3",
-        icon: Plus,
-        title: "What content is available on StreamVibe?",
-      },
-      {
-        id: "4",
-        icon: Plus,
-        title: "How can I watch StreamVibe?",
+        id: "1",
+        icon: Minus,
+        title: "What is StreamVibe?",
+        content:
+          "StreamVibe is a streaming service that allows you to watch movies and shows on demand.",
       },
     ],
     right: [

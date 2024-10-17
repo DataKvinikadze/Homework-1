@@ -17,8 +17,11 @@ const NavBar = () => {
           </div>
           <nav className="max-w-[412px] hidden mm:block w-full h-[61px] p-[8px] bg-[#0F0F0F] border-[3px] border-[#1F1F1F] rounded-[10px]">
             <ul className="flex h-full justify-between">
-              {navBar.map((item) => (
-                <li className="px-[10px] py-[12px] text-[14px] hover:bg-[#1A1A1A] rounded-[8px]">
+              {navBar.map((item, index) => (
+                <li
+                  key={index}
+                  className="px-[10px] py-[12px] text-[14px] hover:bg-[#1A1A1A] rounded-[8px]"
+                >
                   <button className="text-[#FFFFFF]">{item.title}</button>
                 </li>
               ))}

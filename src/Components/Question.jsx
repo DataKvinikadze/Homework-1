@@ -22,29 +22,25 @@ const Question = () => {
           </div>
           {/* Bottom */}
           <div>
-            <ul className="flex flex-col md:flex-row md:justify-between">
-              <div>
-                {Questions.content.left.map((question) => (
-                  <QuestionCard
-                    key={question.id}
-                    number={question.id}
-                    icon={question.icon}
-                    title={question.title}
-                    content={question.content}
-                  />
-                ))}
-              </div>
-              <div>
-                {Questions.content.right.map((question) => (
-                  <QuestionCard
-                    key={question.id}
-                    number={question.id}
-                    icon={question.icon}
-                    title={question.title}
-                    content={question.content}
-                  />
-                ))}
-              </div>
+            <ul className="grid grid-cols-1 gap-x-20 md:grid-cols-2 ">
+              {Questions.content.left.map((question) => (
+                <QuestionCard
+                  key={question.id}
+                  number={question.id}
+                  title={question.title}
+                  content={question.content}
+                />
+              ))}
+
+              {Questions.content.right.map((question) => (
+                <QuestionCard
+                  key={question.id}
+                  number={question.id}
+                  icon={question.icon}
+                  title={question.title}
+                  content={question.content}
+                />
+              ))}
             </ul>
           </div>
         </div>
