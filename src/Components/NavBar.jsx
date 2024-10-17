@@ -15,18 +15,16 @@ const NavBar = () => {
               className="w-[116px] md:w-[165px] lg:w-[200px]"
             />
           </div>
-          <div className="items-center hidden md:flex justify-center lg:max-w-[555px]  md:max-w-[412px] w-full lg:h-[75px] h-[61px] border-[3px] border-[#1F1F1F] rounded-lg bg-[#0F0F0F]">
-            <nav className="">
-              <ul className="flex items-center md:h-11 lg:h-[55px] md:gap-4 lg:gap-[30px] text-[#BFBFBF]">
-                {navBar.map((item) => (
-                  <li key={item.title}>
-                    <li className="lg:text-[18px]">{item.title}</li>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          </div>
-          <div className="hidden md:flex justify-between max-w-14 w-full h-6">
+          <nav className="max-w-[412px] w-full h-[61px] p-[8px] bg-[#0F0F0F] border-[3px] border-[#1F1F1F] rounded-[10px]">
+            <ul className="flex h-full justify-between">
+              {navBar.map((item) => (
+                <li className="px-[10px] py-[12px] text-[14px] hover:bg-[#1A1A1A] rounded-[8px]">
+                  <button className="text-[#FFFFFF]">{item.title}</button>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          <div className="hidden md:flex gap-[14px] h-6">
             <img src={Search} alt="Search" className="md:w-[34px]" />
             <img
               src={Notification}
