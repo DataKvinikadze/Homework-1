@@ -6,8 +6,8 @@ import { burgerBar } from "../Assets";
 const NavBar = () => {
   return (
     <>
-      <div className="flex justify-center mx-auto max-w-[1440px] w-full h-24 py-5">
-        <div className="max-w-[1577px] w-full flex justify-between items-center px-[10px]">
+      <div className="flex justify-center mx-auto md:max-w-[1440px] w-full h-24 py-5">
+        <div className="lg:max-w-[1577px] md:max-w-[1279px] w-full flex justify-between items-center px-[10px]">
           <div className="">
             <img
               src={Logo}

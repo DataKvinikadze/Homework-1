@@ -5,9 +5,9 @@ import { headerTitle } from "../constants";
 const Header = () => {
   return (
     <>
-      <div className="h-fit md:bg-[url('./Assets/Background.png')] bg-[url('./Assets/PhoneBg.png')]  bg-center bg-no-repeat md:mb-[130px]">
+      <div className="max-h-[836px] md:bg-[url('./Assets/Background.png')] bg-[url('./Assets/PhoneBg.png')] bg-center bg-no-repeat flex flex-col justify-between">
         <NavBar />
-        <div className="mx-auto flex flex-col justify-center items-center text-center text-[#FFFFFF] mt-[300px] md:mt-[501px]">
+        <div className="mx-auto flex flex-col justify-center items-center text-center text-[#FFFFFF]">
           <h1 className="md:text-[48px] text-[28px] font-bold mb-[10px] ">
             {headerTitle.title}
           </h1>

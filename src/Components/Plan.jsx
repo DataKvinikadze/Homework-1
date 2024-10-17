@@ -6,7 +6,7 @@ const Plan = () => {
   return (
     <>
       <div className="text-white md:max-w-[1440px] lg:max-w-[1920px] w-full mx-auto flex justify-center mb-[120px]">
-        <div className="max-w-[1280px] w-full px-[10px]">
+        <div className="md:max-w-[1280px] w-full px-[10px]">
           {/* Header */}
           <div className="flex flex-col md:flex-row justify-between mb-[40px] lg:mb-[80px] md:mb-[60px]">
             <div className="mb-[20px] md:mb-0">
