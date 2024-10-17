@@ -30,12 +30,12 @@ const Category = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:grid grid-cols-5 gap-5 w-full ">
+          <div className="hidden mm:grid md:grid-cols-5 gap-5 mm:grid-cols-3 w-full ">
             {category.content.map((item, index) => (
               <CategoryCard key={index} image={item.img} Title={item.title} />
             ))}
           </div>
-          <div className="md:hidden">
+          <div className="mm:hidden">
             <CategoryCard
               image={category.contentForPhone.img}
               Title={category.contentForPhone.title}
