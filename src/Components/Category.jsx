@@ -30,7 +30,7 @@ const Category = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:flex justify-between  w-full ">
+          <div className="hidden md:grid grid-cols-5 gap-5 w-full ">
             {category.content.map((item, index) => (
               <CategoryCard key={index} image={item.img} Title={item.title} />
             ))}

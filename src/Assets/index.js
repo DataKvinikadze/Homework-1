@@ -7,7 +7,7 @@ import Right from "./Right.svg";
 import Search from "./search.svg";
 import Minus from "./Minus.svg";
 import Plus from "./Plus.svg";
-import Category from "./Container.svg";
+import Category from "./Container.png";
 import TrailBackground from "./FreeTrail.png";
 import burgerBar from "./burgerBar.svg";
 
