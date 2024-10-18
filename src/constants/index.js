@@ -154,7 +154,7 @@ export const Questions = {
           "StreamVibe is a streaming service that allows you to watch movies and shows on demand.",
       },
       {
-        id: "1",
+        id: "3",
         icon: Minus,
         title: "What is StreamVibe?",
         content:
